@@ -1,1 +1,31 @@
-.presentation{border;}
+body {
+  background-color: rgba(235, 235, 235, 255);
+}
+.presentation {
+  margin: 25px 500px;
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.055);
+}
+.portrait {
+  border-radius: 500px;
+  box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.226);
+}
+.icons {
+  margin: 25px 500px;
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.055);
+}
+.histoires {
+  margin: 25px 500px;
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.055);
+}
