@@ -79,6 +79,13 @@ i{    font-size: 1.5rem;
   border-radius: 5px;
   box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.055);
 }
+p{    
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 .affiche1 {
   align-items: center;
   vertical-align: middle;
@@ -110,6 +117,7 @@ i{    font-size: 1.5rem;
   text-justify: auto;
 }
 .picture {
+  height: 120px;
   display: flex;
   flex-direction: column;
   vertical-align: middle;
