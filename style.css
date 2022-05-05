@@ -1,3 +1,6 @@
+h1 {
+  color: rgba(221, 85, 85, 255);
+}
 body {
   background-color: rgba(235, 235, 235, 255);
 }
@@ -13,6 +16,14 @@ body {
   border-radius: 500px;
   box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.226);
 }
+
+.push {
+  border-radius: 15px;
+  margin: 10px 175px;
+  padding: 1px;
+  text-align: center;
+  background-color: rgba(221, 85, 85, 255);
+}
 .icons {
   margin: 25px 500px;
   padding: 25px;
@@ -22,10 +33,30 @@ body {
   box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.055);
 }
 .histoires {
+  text-align: justify;
   margin: 25px 500px;
   padding: 25px;
   text-align: center;
   background-color: rgba(255, 255, 255, 255);
   border-radius: 5px;
   box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.055);
+}
+.affiche1 {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.affiche2 {
+  padding: 30x;
+  display: flex;
+  flex-direction: row;
+}
+
+.affiche3 {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.description {
+  text-align: justify;
 }
