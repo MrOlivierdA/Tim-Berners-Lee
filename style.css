@@ -49,16 +49,25 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.055);
 }
-
-li {
+ul {
+  height: 100%;
   display: flex;
-  display: inline-block;
-}
-
-.social {
-  margin: 0 20px;
+  list-style-type: none;
+  align-items: center;
   justify-content: center;
+}
+li {
+  margin: 0 20px;
   text-align: center;
+}
+i{    font-size: 1.5rem;
+  color: rgb(204, 204, 204);
+  margin: 5px;
+}}
+.social {
+  color: rgb(204, 204, 204);
+  text-decoration: none;
+  font-size: 0.9rem;
 }
 
 .histoires {
