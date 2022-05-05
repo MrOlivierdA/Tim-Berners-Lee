@@ -18,11 +18,15 @@ body {
 }
 
 .push {
-  border-radius: 15px;
-  margin: 10px 175px;
-  padding: 1px;
-  text-align: center;
-  background-color: rgba(221, 85, 85, 255);
+  margin: 15px 0px;
+  padding: 5px;
+  font-family: sans-serif;
+  background-color: rgb(224, 77, 77);
+  border: 3px solid rgb(224, 77, 77);
+  border-radius: 5px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .icons {
   margin: 25px 500px;
@@ -32,6 +36,18 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.055);
 }
+
+li {
+  display: flex;
+  display: inline-block;
+}
+
+.social {
+  margin: 0 20px;
+  justify-content: center;
+  text-align: center;
+}
+
 .histoires {
   text-align: justify;
   margin: 25px 500px;
@@ -42,21 +58,37 @@ body {
   box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.055);
 }
 .affiche1 {
+  align-items: center;
+  vertical-align: middle;
+  margin: auto;
   padding: 30px;
   display: flex;
   flex-direction: row;
 }
 .affiche2 {
+  align-items: center;
+  vertical-align: middle;
+  margin: auto;
   padding: 30x;
   display: flex;
   flex-direction: row;
 }
 
 .affiche3 {
+  align-items: center;
+  vertical-align: middle;
+  margin: auto;
   padding: 30px;
   display: flex;
   flex-direction: row;
 }
 .description {
-  text-align: justify;
+  margin: 0 5px;
+  text-align: center;
+  text-justify: auto;
+}
+.picture {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
 }
